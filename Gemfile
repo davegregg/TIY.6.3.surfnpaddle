@@ -39,10 +39,14 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'kaminari'
+gem 'kaminari-bootstrap', '~> 3.0.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'factory_girl_rails'
+  gem 'ffaker'
   gem 'pry-rails'
   gem 'pry-nav'
   gem 'database_cleaner'

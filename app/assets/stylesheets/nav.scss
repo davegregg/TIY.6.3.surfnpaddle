@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+
+.navbar-header {
+  @include align-fully-centered;
+}
+
+// .navbar-header .title {
+//
+// }
